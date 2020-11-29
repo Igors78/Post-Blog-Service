@@ -36,13 +36,36 @@ To get a local copy up and running follow these simple example steps.
 - Run `git clone https://github.com/Igors78/Sample_app.git` command
 - Install Rails with all dependencies in order to run local server and app in it:
 `install Rails`
-`bundle install`
+- Install gems ignoring production environment
+```
+$ bundle config set without 'production'
+$ bundle install
+```
+
+- Next, migrate the database:
+
+```
+$ rails db:migrate
+```
+
+- Finally, run the test suite to verify that everything is working correctly:
+
+```
+$ rails test
+```
 
 ## Usage
 
-- Go to respective directory and run
-`rails server`
+- If the test suite passes, you'll be ready to run the app in a local server:
+
+```
+$ rails server
+```
 - Open LOCALHOST:3000 in your browser
+For more information, see the
+[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+
 
 
 
