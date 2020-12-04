@@ -1,17 +1,16 @@
-
 ### Ruby on Rails Tutorial
 
 ## "Sample_app"
 
 - This is the third application for the
-[*Ruby on Rails Tutorial*](https://www.railstutorial.org/)
-by [Michael Hartl](https://www.michaelhartl.com/). Sample_app!
+  [_Ruby on Rails Tutorial_](https://www.railstutorial.org/)
+  by [Michael Hartl](https://www.michaelhartl.com/). Sample_app!
 
 ![screenshot](screenshot.png)
 
 ## Getting Started
 
-- This app is functional 
+- This app is functional
 
 ## Live Demo
 
@@ -35,39 +34,37 @@ To get a local copy up and running follow these simple example steps.
 - Go to your preferred directory
 - Run `git clone https://github.com/Igors78/Sample_app.git` command
 - Install Rails with all dependencies in order to run local server and app in it:
-`install Rails`
+  `install Rails`
 - Install gems ignoring production environment
-```
-$ bundle config set without 'production'
-$ bundle install
+
+```bash
+bundle config set without 'production'
+bundle install
 ```
 
 - Next, migrate the database:
 
-```
-$ rails db:migrate
+```bash
+rails db:migrate
 ```
 
 - Finally, run the test suite to verify that everything is working correctly:
 
-```
-$ rails test
+```bash
+rails test
 ```
 
 ## Usage
 
 - If the test suite passes, you'll be ready to run the app in a local server:
 
+```bash
+rails server
 ```
-$ rails server
-```
+
 - Open LOCALHOST:3000 in your browser
-For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
-
-
-
-
+  For more information, see the
+  [_Ruby on Rails Tutorial_ book](https://www.railstutorial.org/book).
 
 ## Built with
 
