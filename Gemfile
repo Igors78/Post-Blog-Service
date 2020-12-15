@@ -10,6 +10,7 @@ gem 'sass-rails', '6.0.0'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '4.2.2'
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+gem 'rename', '~> 1.0', '>= 1.0.6'
 
 group :development, :test do
   gem 'byebug', '11.1.3', platforms: %i[mri mingw x64_mingw]
