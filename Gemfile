@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 gem 'bootsnap', '1.4.6', require: false
 gem 'bootstrap-sass', '3.4.1'
 gem 'jbuilder', '2.10.0'
 gem 'puma', '5.0.4'
 gem 'rails', '6.0.3.4'
+gem 'rename', '~> 1.0', '>= 1.0.6'
 gem 'sass-rails', '6.0.0'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '4.2.2'
-gem 'bcrypt', '~> 3.1', '>= 3.1.16'
-gem 'rename', '~> 1.0', '>= 1.0.6'
 
 group :development, :test do
   gem 'byebug', '11.1.3', platforms: %i[mri mingw x64_mingw]
