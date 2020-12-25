@@ -45,10 +45,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def valid_user
-    unless @user && @user.activated? &&
-           @user.authenticated?(:reset, params[:id])
-      redirect_to root_url
-    end
+    redirect_to root_url unless @user.authenticated?(:reset, params[:id]) && @user && @user.activated?
   end
 
   # Checks expiration of reset token.
