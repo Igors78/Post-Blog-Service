@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'active_storage_validations', '~> 0.9.0'
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 gem 'bootsnap', '1.4.6', require: false
 gem 'bootstrap-sass', '3.4.1'
 gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'faker', '~> 2.15', '>= 2.15.1'
 gem 'jbuilder', '2.10.0'
+gem 'image_processing',           '1.9.3'
+gem 'mini_magick',                '4.9.5'
 gem 'puma', '5.0.4'
 gem 'rails', '6.0.3.4'
 gem 'rename', '~> 1.0', '>= 1.0.6'
@@ -40,6 +43,7 @@ end
 
 group :production do
   gem 'pg', '1.2.3'
+  gem 'aws-sdk-s3', '1.46.0', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
