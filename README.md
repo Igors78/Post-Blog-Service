@@ -2,10 +2,10 @@
 
 ## Summary
 
-In this project, I built a simple Twitter-like post-blog service covering basic Twitter features.
+In this project, I built a simple Twitter-like post-blog service covering basic
+Twitter features.
 
-![screenshot](screenshot.png)
-![screenshot](screenshot1.png)
+![screenshot](screenshot.png) ![screenshot](screenshot1.png)
 
 ### Project created for learning purposes, covering the basics of Ruby on Rails including, but not limited to
 
@@ -24,9 +24,11 @@ In this project, I built a simple Twitter-like post-blog service covering basic 
 
 ## Getting Started
 
-- This app is functional micro post blog with the possibility to create,read and delete posts (Admin only has access to delete). To access full functionality, the user should log in,
-  if an account exists, or create one as a new user through email authentication process. The app is connected to
-  the database accordingly, Amazon bucket used as external storage.
+- This app is functional micro post blog with the possibility to create,read and
+  delete posts (Admin only has access to delete). To access full functionality,
+  the user should log in, if an account exists, or create one as a new user
+  through email authentication process. The app is connected to the database
+  accordingly, Amazon bucket used as external storage.
 
   [Live Demo Link](https://post-blog-chat.herokuapp.com/)
 
@@ -72,7 +74,8 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [Igors78](https://github.com/Igors78)
 - Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
-- LinkedIn: [Oleinikovs Igors](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
+- LinkedIn:
+  [Oleinikovs Igors](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 ## 🤝 Contributing
 
