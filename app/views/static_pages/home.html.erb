@@ -1,15 +1,5 @@
-<div class="center jumbotron">
-    <h1>Welcome to the Post Blog Service</h1>
-
-    <h2>
-        This is the home page for the
-        <a href="#">Blog Microposts</a>
-        sample application.
-    </h2>
-
-    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-
-<div class="col-md-6 col-md-offset-3">
-    <%= image_tag("matrix.png", alt: "Matrix", width: "400") %>
-</div>
+<% if logged_in? %>
+<%= render 'static_pages/logged_home' %>
+<% else %>
+<%= render 'static_pages/visitor_home' %>
+<% end %>
