@@ -1,20 +1,34 @@
-# Ruby on Rails Tutorial
+# Post Blog Service
 
-## "Sample_app"
+## Summary
 
-- This is the third application for the
-  [_Ruby on Rails Tutorial_](https://www.railstutorial.org/)
-  by [Michael Hartl](https://www.michaelhartl.com/). Sample_app!
+In this project, I built a simple Twitter-like post-blog service covering basic Twitter features.
 
 ![screenshot](screenshot.png)
+![screenshot](screenshot1.png)
+
+### Project created for learning purposes, covering the basics of Ruby on Rails including, but not limited to
+
+- Models, Views, and Controllers (MVC)
+- Data Structures & Relationships
+- Routing
+- Migrations
+- Views with forms, partials, and helpers
+- RESTful design
+- Adding gems for extra features
+- Authentication
+- InApp email sending
+- Data storage at external source (Amazon AWS bucket)
+- Active Storage usage (Images uploading)
+- Multiple level data models associations and relationships
 
 ## Getting Started
 
-- This app is functional
+- This app is functional micro post blog with the possibility to create,read and delete posts (Admin only has access to delete). To access full functionality, the user should log in,
+  if an account exists, or create one as a new user through email authentication process. The app is connected to
+  the database accordingly, Amazon bucket used as external storage.
 
-## Live Demo
-
-[Live Demo Link](https://serene-chamber-76859.herokuapp.com/)
+  [Live Demo Link](https://post-blog-chat.herokuapp.com/)
 
 ## On your Computer
 
@@ -32,52 +46,33 @@ To get a local copy up and running follow these simple example steps.
 ## Install
 
 - Go to your preferred directory
-- Run `git clone https://github.com/Igors78/Sample_app.git` command
-- Install Rails with all dependencies in order to run local server and app in it:
-  `install Rails`
-- Install gems ignoring production environment
-
-```bash
-bundle config set without 'production'
-bundle install
-```
-
-- Next, migrate the database:
-
-```bash
-rails db:migrate
-```
-
-- Finally, run the test suite to verify that everything is working correctly:
-
-```bash
-rails test
-```
+- Run `git clone https://github.com/Igors78/Post-Blog-Service.git` command
+- Install Rails with all dependencies in order to run local server and app in
+  it:
+- `install Rails`
+- `bundle install`
+- `rails db:migrate`
 
 ## Usage
 
-- If the test suite passes, you'll be ready to run the app in a local server:
-
-```bash
-rails server
-```
-
+- Go to respective directory and run
+- `rails server`
 - Open LOCALHOST:3000 in your browser
-  For more information, see the
-  [_Ruby on Rails Tutorial_ book](https://www.railstutorial.org/book).
 
 ## Built with
 
 - Ruby 2.7.0
 - Ruby on Rails 6.0.3.4
+- Bootstrap
+- Gems used listed in Gemfile
 
 ## Author
 
 👤 **Igors Oleinikovs**
 
-- GitHub: [@githubhandle](https://github.com/Igors78)
-- Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
+- GitHub: [Igors78](https://github.com/Igors78)
+- Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
+- LinkedIn: [Oleinikovs Igors](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 ## 🤝 Contributing
 
