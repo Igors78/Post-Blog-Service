@@ -5,7 +5,7 @@
 In this project, I built a simple Twitter-like post-blog service covering basic
 Twitter features.
 
-![screenshot](screenshot.png) ![screenshot](screenshot1.png)
+![screenshot](screenshot.png)
 
 ### Project created for learning purposes, covering the basics of Ruby on Rails including, but not limited to
 
@@ -29,6 +29,8 @@ Twitter features.
   the user should log in, if an account exists, or create one as a new user
   through email authentication process. The app is connected to the database
   accordingly, Amazon bucket used as external storage.
+
+  - This application includes examples of all the major features of Rails, including models, views, controllers, templates, partials, filters, validations, callbacks, has_many/belongs_to and has_many :through associations, security, testing, and deployment.
 
   [Live Demo Link](https://post-blog-chat.herokuapp.com/)
 
